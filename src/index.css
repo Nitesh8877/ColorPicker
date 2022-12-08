@@ -1,0 +1,100 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+}
+
+.instragram-container{
+  margin-top: 80px;
+} */
+
+
+/* color picker app */
+
+body{
+  background-color:aliceblue;
+}
+.container{
+ display: flex;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 2rem;
+}
+input{
+  
+  border-color:transparent;
+  padding: 0.5rem 1 rem;
+  font-size: 1.2rem;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+.container h3{
+  margin-bottom: 0;
+  margin-right: 3rem;
+}
+
+.btn{
+  background:rgb(29, 213, 136);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-color: transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: capitalize;
+  color:rgb(12, 92, 65);
+  cursor: pointer;
+}
+input.error{
+  border: 2px solid turquoise;
+
+}
+.color{
+  min-height: calc(100vh-100px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(96px,1fr));
+
+}
+.color{
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: none;
+
+}
+.percent-value{
+  margin-bottom: 0;
+  color:rgb(27, 151, 223);
+
+}
+.color-value{
+  color:tomato;
+  margin-bottom: 0;
+
+}
+.color-light .color-value{
+ color: rgb(36, 197, 15);
+
+}
+.color-light .percent-value{
+  color:rgb(161, 30, 30);
+
+}
+.alert{
+  text-transform: uppercase;
+  font-size: 0.85;
+  margin-top: 0.5rem;
+}
